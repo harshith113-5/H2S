@@ -1,0 +1,190 @@
+/* General styles */
+body {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, black 45%, green);
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3 {
+    color: gold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    /* background: linear-gradient(to right, black 45%, green); */
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero img {
+    max-width: 50%;
+    /* border-radius: 8%; */
+  }
+  
+  .hero-content h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 30px;
+  }
+
+  .btn {
+    background-color: #25943f;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Mission and Vision */
+  .mission-vision {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .mission-vision h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .mission-vision .content p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Timeline */
+  .timeline {
+    /* background: linear-gradient(to right, black 45%, green); */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .timeline h3 {
+    color: rgb(5, 75, 5);
+  }
+  
+  .timeline ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline-content {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 215, 0);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .team-member {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-members {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .team-members h3 {
+    color: white;
+  }
+  
+  /* Call to Action */
+  .call-to-action {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    margin-bottom: 36px;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .call-to-action a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .call-to-action a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+  }
+  .call-to-action .btn {
+    background-color: gold;
+    color: black;
+    
+  }
+  
+  /* Box Info Section */
+  .boxinfo body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, black 50%, green);
+    margin: 0;
+    padding: 18px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box {
+    background-color: gold;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .box h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .boxinfo p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
